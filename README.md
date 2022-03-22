@@ -3,7 +3,7 @@
 
 - Verify `mgreau/cosign-test` container against a public key
 ```bash
-$ cosign verify --key https://raw.githubusercontent.com/mgreau/sigstore-spacetime/main/cosign-test/cosign.pub docker.io/mgreau/cosign-test
+$ cosign verify --key https://raw.githubusercontent.com/mgreau/sigstore-spacetime/1a922e54653266f891bdbce1529204dfd305d02e/cosign-test/cosign.pub docker.io/mgreau/cosign-test
 
 Verification for index.docker.io/mgreau/cosign-test:latest --
 The following checks were performed on each of these signatures:
